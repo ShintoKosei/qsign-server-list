@@ -22,6 +22,8 @@
 
 ## 部署方法
 
+*自行搭建签名服务器需要有一定的动手能力与基础*
+
 ### Wiki: https://github.com/fuqiuluo/unidbg-fetch-qsign/wiki
 
 ### Docker部署教程（by [@XZhouQD](https://github.com/XZhouQD)）
