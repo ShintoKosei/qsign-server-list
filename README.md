@@ -1,9 +1,10 @@
-# [qsign](https://github.com/fuqiuluo/unidbg-fetch-qsign)共享签名服务器列表
+# qsign共享签名服务器列表
 
-| 签名服务器地址 | 秘钥 Key | 配置 | 地区 | 搭建方式 | 版本/协议版本 | 联系方式/留言 |
+| 签名服务器地址 | 秘钥 Key | 配置 | 地区/运营商 | 搭建方式 | 版本/协议版本 | 联系方式/留言 |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| https://qsign.pueh.cc/ | keykeykey114514 | 8h16g | 大陆 | jvm | 1.1.6/8.9.70 | 轻虐 |
-| http://server.kaivps.cloud:18651/ | 114514  | 44h256g | 中国北京 | - | 1.1.3/- | - |
+| https://qsign.pueh.cc/ | keykeykey114514 | 8c16g | 广西/电信 | jvm | 1.1.6/8.9.70 | 轻虐 |
+| http://server.kaivps.cloud:18651/ | 114514  | 44c256g 100M | 北京/移动 | jvm | 1.1.3/8.8.63 | - |
+
 
 ❗️注意: 使用他人搭建的服务可能会泄露以下信息：
 - 登录账号
@@ -21,7 +22,7 @@
 
 ## 部署方法
 
-Github Wiki: https://github.com/fuqiuluo/unidbg-fetch-qsign/wiki
+### qsign Wiki: https://github.com/fuqiuluo/unidbg-fetch-qsign/wiki
 
 ### Docker部署教程（by [@XZhouQD](https://github.com/XZhouQD)）
 
