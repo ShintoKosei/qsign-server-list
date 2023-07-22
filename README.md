@@ -47,9 +47,8 @@
 - 有些风控等级较高的账号，登录过后1-2天，即使加了签名服务器也会发群消息屏蔽，这时候就要删掉 `session.token` 和 `device.json` 重新登录，重新登录成功后即可再次发送群消息（反复循环）
 - IP及运营商查询：http://www.cip.cc/
   > 命令行查询(详细):
-   >>UNIX/Linux: `#curl cip.cc`
-   >>Windows: `>telnet cip.cc`, `>ftp cip.cc`
-   
+   >>UNIX/Linux: `#curl cip.cc` | Windows: `>telnet cip.cc`, `>ftp cip.cc`
+
   > 命令行查询(纯ip):
    >>UNIX/Linux:#curl ip.cip.cc
 
