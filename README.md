@@ -3,6 +3,7 @@
 | 签名服务器地址 | 秘钥 Key | 配置 | 地区 | 搭建方式 | 版本/协议版本 | 共享方/联系方式/留言 |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | https://qsign.pueh.cc/ | keykeykey114514 | 8h16g | 大陆 | jvm | 1.1.6/8.9.70 | 轻虐 |
+| http://server.kaivps.cloud:18651/ | 114514  | 44h256g | 中国北京 | - | 1.1.3/- | - |
 
 ❗️注意: 使用他人搭建的服务可能会泄露以下信息：
 - 登录账号
@@ -12,7 +13,7 @@
 
 ✅ 不会泄露的信息：
 - 账号密码
-- 账号 session
+- 账号 `session`
 - 群列表/好友列表
 - 接收的消息
 - 除发送消息外的任何历史记录
@@ -24,8 +25,14 @@ Github Wiki: https://github.com/fuqiuluo/unidbg-fetch-qsign/wiki
 
 ### Docker部署教程（by [@XZhouQD](https://github.com/XZhouQD)）
 
-` docker run -d --restart=always --name qsign -p 8080:8080 -e ANDROID_ID={android_id} xzhouqd/qsign:8.9.63 `
-运行命令之后，用 `docker container ls -a` 查看一下容器是否跑起来，没跑起来的（状态是Exited (1)）用 `docker container logs qsign` 看一下是不是没填**android_id**！
+```
+ docker run -d --restart=always --name qsign -p 8080:8080 -e ANDROID_ID={android_id} xzhouqd/qsign:8.9.63 `
+运行命令之后，用 docker container ls -a 查看一下容器是否跑起来，没跑起来的（状态是Exited (1)）用 docker container logs qsign 看一下是不是没填android_id！
+```
+
+**请注意 sso 版本必须和协议版本一致**
+
+搭建完成后可删除 `config.yml` 重新生成, 然后配置 `Account.SignServer` 字段为 `[http/https]://{server}:{port}` 即可.
 
 ## 自编译qsign方法
 要编译[qsign](https://github.com/fuqiuluo/unidbg-fetch-qsign)，需要 `JDK 8` 和互联网连接
