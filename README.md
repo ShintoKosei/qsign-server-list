@@ -48,9 +48,8 @@
 - IP及运营商查询：http://www.cip.cc/
   > 命令行查询(详细):
    >>UNIX/Linux: `#curl cip.cc`
-
    >>Windows: `>telnet cip.cc`, `>ftp cip.cc`
-
+   
   > 命令行查询(纯ip):
    >>UNIX/Linux:#curl ip.cip.cc
 
