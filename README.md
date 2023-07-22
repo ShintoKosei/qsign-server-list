@@ -6,7 +6,7 @@
 | http://server.kaivps.cloud:18651/ | 114514  | 44c256g 100M | 北京/移动 | jvm | 1.1.3/8.9.63 | - |
 
 
-❗️注意: 使用他人搭建的服务可能会泄露以下信息：
+❗️ 请注意，使用他人搭建的签名服务可能会泄露以下信息：
 - 登录账号
 - 登录时间
 - 登录后发送的消息内容
@@ -22,7 +22,7 @@
 
 ## 部署方法
 
-### qsign Wiki: https://github.com/fuqiuluo/unidbg-fetch-qsign/wiki
+### Wiki: https://github.com/fuqiuluo/unidbg-fetch-qsign/wiki
 
 ### Docker部署教程（by [@XZhouQD](https://github.com/XZhouQD)）
 
