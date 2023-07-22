@@ -52,5 +52,5 @@
   > 命令行查询(纯ip):
    >>UNIX/Linux:#curl ip.cip.cc
 
-- 本储存库由 @ShintoKosei 和 @3035936740 一同用❤️维护
+- 本储存库由 [@柠凉°](https://github.com/ShintoKosei) 和 [@饼](https://github.com/3035936740) 用❤️维护
 - 喜欢的话就给个 ⭐Star吧
