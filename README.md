@@ -36,7 +36,7 @@
 搭建完成后可删除 `config.yml` 重新生成, 然后配置 `Account.SignServer` 字段为 `[http/https]://{server}:{port}` 即可.
 
 ## 自编译qsign方法
-要编译[qsign](https://github.com/fuqiuluo/unidbg-fetch-qsign)，需要 `JDK=8` 和互联网连接
+要编译qsign，需要 `JDK=8` 和互联网连接
 
 首先克隆[qsign存储库](https://github.com/fuqiuluo/unidbg-fetch-qsign)，从终端运行 `./gradlew build` ，然后可以在目录 `build/distributions` 中找到已编译的 tar 或 zip 文件
 
