@@ -16,7 +16,8 @@
 - 群列表/好友列表
 - 接收的消息
 - 除发送消息外的任何历史记录
-- 
+
+
 ## 部署方法
 
 Github Wiki: https://github.com/fuqiuluo/unidbg-fetch-qsign/wiki
