@@ -57,4 +57,10 @@
 - [本列表](https://github.com/ShintoKosei/qsign-server-list)由 [@柠凉°](https://github.com/ShintoKosei) 和 [@饼](https://github.com/3035936740) 用❤️维护
 - 喜欢的话就点个⭐Star吧
 
-[![Star History Chart](https://api.star-history.com/svg?repos=ShintoKosei/qsign-server-list&type=Date)](https://star-history.com/#ShintoKosei/qsign-server-list&Date)
+<a href="https://star-history.com/#ShintoKosei/qsign-server-list&Date">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=ShintoKosei/qsign-server-list&type=Date&theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=ShintoKosei/qsign-server-list&type=Date" />
+    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=ShintoKosei/qsign-server-list&type=Date" />
+  </picture>
+</a>
