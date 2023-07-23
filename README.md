@@ -55,7 +55,7 @@
    >>UNIX/Linux: `#curl ip.cip.cc`
 
 - [本列表](https://github.com/ShintoKosei/qsign-server-list)由 [@柠凉°](https://github.com/ShintoKosei) 和 [@饼](https://github.com/3035936740) 用❤️维护
-- 喜欢的话就点个⭐Star吧
+- **喜欢的话就点个免费的⭐Star吧**
 
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=ShintoKosei/qsign-server-list&type=Date&theme=dark" />
